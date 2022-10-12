@@ -81,7 +81,7 @@ footer{
 .footer-top{
  padding: 70px 0 40px;
  display: flex;
-//  justify-content: space-between;
+ border-bottom: 1px solid #cecece;
 &_contact{
     width: 270px;
     margin-right: 50px;
@@ -126,21 +126,69 @@ footer{
         fill: $accent;
     }
 }
+&:hover{
+    path{
+        fill: $accent;
+    }
+}
+}
+&_title {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: $title;
+    // @extend %roboto-400;
+    line-height: 1;
 }
 
+&_list-link{
+    margin-bottom: 10px;
+    display: block;
+}
+
+&_text{
+    margin-bottom: 25px;
+}
+
+&_form-imput{
+    background: #fff;
+    border: none;
+    padding: 12px 10px 12px 15px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 7px 20px 0px rgba(192,192,192,0.3);
+    &::placeholder{
+    color: $default;
+    font-size: 16px;
+    }
+}
+&_form-btn{
+    border: none;
+    background-color: $accent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 26px;
+    cursor: pointer;
+    box-shadow: 0px 7px 20px 0px rgba(255,17,48,0.3);
+}
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    font-size: 12px;
+    &_accept-img{
+        margin-left: 25px;
+        vertical-align: middle;
+        display: inline;
+    }
 }
 
 
-a{
-        color: $default;
-        font-size: 16px;
-        line-height: 24px; 
-        @extend %quicksand-500;
-}
 
 
 
 
-    // @import 'media';
 
-
+// @import 'media';
