@@ -17,7 +17,8 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
-    "sass": "^1.52.3"
+    "sass": "^1.52.3",
+    "slick-carousel": "^1.8.1"
   },
   "dependencies": {
     "browser-sync": "^2.27.10"
