@@ -1,6 +1,9 @@
 $(function(){
     $('.top-slider_inner').slick({
      dots:true,
-     errows:false,
+     arrows:false,
+     fade: true,
+     autoplay: true,
+     autoplaySpeed: 2000,
     });
    });
