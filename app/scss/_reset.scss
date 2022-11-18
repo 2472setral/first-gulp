@@ -105,3 +105,9 @@ input, select {
 nav ul{
     list-style:none; 
 }
+
+*,
+    ::after,
+    ::before{
+    box-sizing: border-box;
+}
